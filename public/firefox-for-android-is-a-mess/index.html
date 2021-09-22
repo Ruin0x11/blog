@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  
+<title>Firefox for Android is a mess, and something needs to change. | fleeting thoughts.</title>
+
+
+
+<meta property="og:title" content="Firefox for Android is a mess, and something needs to change.">
+
+
+
+<meta name="author" content="nonbirithm">
+
+
+<meta property="og:locale" content="en-US">
+
+
+
+
+<link rel="canonical" href="https://blog.nori.moe/firefox-for-android-is-a-mess/">
+<meta property="og:url" content="https://blog.nori.moe/firefox-for-android-is-a-mess/">
+
+
+
+<meta property="og:site_name" content="fleeting thoughts." />
+
+
+
+
+
+  <meta property="og:type" content="article" />
+  <meta property="article:published_time" content="2021-09-22T01:27:58-07:00">
+
+
+
+
+
+
+
+  <meta name="twitter:card" content="summary">
+
+
+
+  <meta property="twitter:title" content="Firefox for Android is a mess, and something needs to change.">
+
+
+
+
+
+
+
+
+<script type="application/ld+json">
+{
+  "author": {
+    "@type":"Person",
+	  "name":"nonbirithm",
+  },
+  "description": "",
+  "url": "https://blog.nori.moe/firefox-for-android-is-a-mess/",
+  "@context":"https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Firefox for Android is a mess, and something needs to change."
+  
+    
+    
+      "datePublished":"2021-09-22T01:27:58-07:00",
+    
+    "mainEntityOfPage":{
+      "@type":"WebPage",
+      "@id":"https://blog.nori.moe/firefox-for-android-is-a-mess/"
+    },
+  
+}
+</script>
+
+  <link rel="stylesheet" href="https://blog.nori.moe/main.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Libre+Baskerville:400,400i,700">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="https://blog.nori.moe/assets/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="https://blog.nori.moe/assets/favicon-16x16.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="https://blog.nori.moe/assets/apple-touch-icon.png">
+
+  
+
+  
+
+  
+  
+</head>
+
+<body>
+  
+  <nav class="nav">
+    <div class="nav-container">
+      <a href="https://blog.nori.moe">
+        <h2 class="nav-title">fleeting thoughts.</h2>
+      </a>
+      <ul>
+        
+          
+            <li><a href="https://blog.nori.moe">Posts</a></li>
+          
+        
+      </ul>
+    </div>
+  </nav>
+  
+
+  <main>
+    
+  <div class="post">
+  	<div class="post-info">
+  		<span>Written by</span> nonbirithm<br>
+  		<span>on&nbsp;</span><time datetime="2021-09-22T01:27:58-07:00">September 22, 2021</time>
+  	</div>
+  	<h1 class="post-title">Firefox for Android is a mess, and something needs to change.</h1>
+  	<div class="post-line"></div>
+  	<p>Let me preface this by saying that the following post is going to be one huge rant. I am probably going to come off as uncompromisingly negative in the following paragraphs. Also, many of the issues I will bring up were born solely out of my own personal frustration, and that frustration does indeed color the tone of what I will say. But I feel that if I don't get this off of my chest right now, it will only further endanger the future of Firefox on Android, and potentially the future of the mobile web along with it.</p>
+<p>When people say that Mozilla is the last company standing that can save the web from a browser monoculture, I look at the state of Firefox on Android and cannot possibly see how that's going to happen within the scope of the mobile web. And up until now, it seems that the dissatisfaction with Firefox for Android has been confined to the occasional disgruntled comment on Hacker News or a significantly larger number of frustrated users on its <a href="https://github.com/mozilla-mobile/fenix/issues">issue tracker</a>. From the perspective of someone who has suffered through desperately and earnestly attempting to use the new version of Firefox for Android as a daily driver for over a year before finally giving up and switching to a Chrome-based browser, I wanted to try and capture my frustrations—as well as the frustrations of many others—in one openly visible place, in the hopes that something will change.</p>
+<p>The latest iteration of <a href="https://www.mozilla.org/en-US/firefox/browsers/mobile/android/">Firefox for Android</a>, codenamed &quot;Fenix&quot;, was initially released in 2019 as a complete rewrite of the older version of Firefox for Android in circulation at the time (&quot;Fennec&quot;). Having used Firefox on my desktop machine since the days of XUL-based add-ons, it at first seemed like a good proposition to adopt a brand-new version of Firefox on my smartphone as well. However, after a year of disappointment stemming from the bugs, instability and missing features in what has become <em>the</em> most important mobile app I use, and one which I've had to rely on nearly every day, I switched from Fenix to Brave for Android and cannot see myself returning anytime soon.</p>
+<p>I have always rooted for Mozilla in preventing Google from obtaining unequivocal control of what has become <em>the</em> most critical software platform in the modern era, one that holds relevance in nearly everyone's life: the web. In case the following post comes off as overly harsh, let me be clear—I <em>want</em> to root for Mozilla, with all of my heart. Their message of valuing privacy is agreeable to me, and in practical terms Firefox is about to become only remaining web browser for desktop and mobile that will be fully compatible with uBlock Origin once Google rolls out Manifest v3. I have no issues at all with Mozilla's <em>intention</em> to support a new version of Firefox on Android devices. However, my enthusiasm has faded after suffering through their botched <em>execution</em> of that plan.</p>
+<p>Before proceeding, I want to make it clear that I'm not trying to criticize Mozilla or anyone who is or has been involved with Mozilla out of spite. I honestly believe that if more people aren't aware of these issues, Firefox for Android might soon end up dying a slow, painful death as its users give up in frustration and leave for better web browsers. I <em>don't</em> want this to happen. I want Firefox for Android to become a browser that I enjoy using, and one that I'm proud to use on a daily basis. If Firefox on <em>desktop</em> has <a href="https://fosspost.org/firefox-may-have-lost-12-percent-of-users/">already lost a significant share of its userbase</a> despite being a perfectly capable web browser that I can use without issue on a daily basis, then after witnessing the current state of Firefox for Android's development, I can't possibly imagine how Mozilla has much hope of taking back market share from Chrome-based Android web browsers the way things are being managed right now. Firefox for Android constantly alienates even the people who stand by it to report all of its issues or use it out of principle—people like yours truly. In the following post, I will attempt to lay out the reasons why this is so, to the best of my ability.</p>
+<blockquote>
+<p><strong>Note:</strong> In order to avoid confusion, I will use the name &quot;Fenix&quot; in this post to refer to the current iteration of Firefox for Android, and not its previous version (codenamed Fennec) or any other version of Firefox.</p>
+</blockquote>
+<p>And finally, I do not intend to personally attack any of the individual humans who are working on Fenix, or anyone who is a part of Mozilla in any way whatsoever. If that is how this post will end up being interpreted, then I sincerely apologize in advance. My intention is only to describe my personal experience of using Fenix, and the reasons why I couldn't bring myself to keep using it any longer.</p>
+<h2 id="the-ux">The UX</h2>
+<p>To begin with, the act of using Fenix in its current state can at times feel like a chore.</p>
+<p>For example, consider the fact that over two years since its original release, <em>you still can't search through your browsing history.</em> This is a completely bewildering omission for a modern web browser in 2021. Over the course of a whole year, my experience with needing to go to a page in my search history in Fenix was to open the omnibar, type a few parts of the URL, wait ten seconds for the agonizingly slow suggestions engine to search through everything, and then hope that the page that I wanted to find showed up as part of the suggestions.</p>
+<p>And after attempting to use the aforementioned workaround with the most recent version of Fenix Nightly, I have found that it doesn't seem to work anymore. So, at present writing, I suppose there is no longer <em>any</em> method of searching through your browsing history in Fenix.</p>
+<p>The <a href="https://github.com/mozilla-mobile/fenix/issues/10046">issue</a> for this arguably basic feature has been open since April of 2020—nearly a year and a half ago. This is a recurring theme with many bug reports and feature requests in Fenix's issue tracker.</p>
+<p>Also, even if you know the full URL of a page in your history, the omnibar will only suggest a single URL segment at a time, forcing you to type a few letters of each segment and then tap to move the cursor to the end after the correct suggestion appears. As the following video shows, another unhelpful behavior is that the omnibar suggests <code>github.community</code> over <code>github.com</code>, despite the fact that I only visited the former site only twice, and the latter many dozens of times. And as if to add insult to injury, the final URL never shows up in the autosuggestions list, even though the omnibar is capable of suggesting each individual segment.</p>
+<video allowfullscreen="true" controls="true" width=700 height=500>
+  <source src="/content/1/url1.webm" type="video/webm">
+</video>
+<p>Contrast this with Brave, which brings up a few suggestions after typing any part of a URL within milliseconds.</p>
+<video allowfullscreen="true" controls="true" width=700 height=500>
+  <source src="/content/1/url2.webm" type="video/webm">
+</video>
+<p>This is only one of many UX issues I hoped to see resolved for months on end, especially since I often ran into it multiple times per day back when I still used Fenix.</p>
+<p>There's also no simple way to access bookmarks, even though you were able to access them from the new tab page with the old version of Firefox for Android (Fennec). With Fenix, you have to open the bookmarks view from the main menu, which already requires two taps, before needing to scroll down to find the bookmark you want—because, just like with search history, there also isn't a way to search though bookmarks. On top of that, you can't reorder the list of bookmarks, either. The corresponding issues for <a href="https://github.com/mozilla-mobile/fenix/issues/12065">frequent bookmark access</a>, <a href="https://github.com/mozilla-mobile/fenix/issues/15094">bookmark searching</a> and <a href="https://github.com/mozilla-mobile/fenix/issues/4348">bookmark reordering</a> have all remained open for over a year—two years, in the case of bookmark reordering. There was even a full set of feature mockups posted in the issue thread for frequent bookmark access, after which... nothing much happened.</p>
+<p>There are other features missing from Fenix that many have come to expect from modern web browsers, such as the <a href="https://github.com/mozilla-mobile/fenix/issues/10344">ability to reorder tabs</a> and the <a href="https://github.com/mozilla-mobile/fenix/issues/7865">ability to open about:config</a>. About the only significant feature in my mind that Fenix has which Chrome for Android does not is WebExtension support, and even though this is indeed a very significant feature, for a user who doesn't particularly care about privacy it is practically the <em>only</em> feature that makes Fenix worthy of consideration over Chrome. Not to mention that there is still <a href="https://blog.mozilla.org/addons/2020/02/11/faq-for-extension-support-in-new-firefox-for-android/">no official way to install arbitrary WebExtensions</a>—leaving only a handful available to install from a &quot;recommended&quot; list—which significantly hampers the usefulness of that single differentiating feature. And if, like me, you need to use the unofficial method of installing extensions to sideload one that isn't officially sanctioned, <a href="https://github.com/mozilla-mobile/fenix/issues/19594">you have no choice but to use Nightly</a>, with its instability and its numerous bugs.</p>
+<h2 id="the-bugs">The Bugs</h2>
+<p>There are too many to count, they are a constant hinderance every time you use Fenix (depending on which features you rely on), and the rate at which they get fixed is at times frustratingly slow. That is, if they're even considered valid issues <em>at all</em>.</p>
+<p>One example is the pull-to-refresh feature, which was initially pushed out only to be <a href="https://github.com/mozilla-mobile/fenix/issues/9770">disabled</a> immediately afterward because of the <a href="https://github.com/mozilla-mobile/fenix/issues/9766">number of bug reports</a> that came in. Even after it was re-enabled, the issues persisted for months afterwards, including being <a href="https://github.com/mozilla-mobile/fenix/issues/16914">unable to scroll up on <em>Google's search results page</em></a>. And the ability to disable pull-to-refresh as a workaround was only implemented five months later. To this day, there are still <a href="https://github.com/mozilla-mobile/fenix/issues/16089">numerous</a> <a href="https://github.com/mozilla-mobile/fenix/issues/16577">unresolved</a> <a href="https://github.com/mozilla-mobile/fenix/issues/19299">issues</a> with pull-to-refresh in both stable and Nightly, even though it's enabled by default.</p>
+<p>Another pervasive issue—which has no workaround—is the <a href="https://github.com/mozilla-mobile/fenix/issues/17716">inability to download images from sites that require cookies</a>, like those behind CloudFlare's DDoS protection, or ones that require a user login. This personally affected me the entire time I used Fenix over the course of a year, and I had no choice but to use Brave as a fallback every time I wanted to download an image from those sites. (The fact that I even needed to have two web browsers installed to perform basic operations on the Internet is a negative in itself.) Also, it's <em>still</em> an issue in both stable and Nightly at present writing, having remained so for eight months by now. The issue is blocked because of a missing feature in GeckoView, and the <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1690037">corresponding issue on Bugzilla</a> was pushed back at least five version milestones over the past eight months with hardly any acknowledgement from either side. Personally, I consider being able to download an image that is visible on a webpage to be basic functionality in a modern web browser in 2021, but it's hard to believe that Mozilla's development teams feel the same way with how little attention has been paid to this issue.</p>
+<p><img src="/content/1/download.png"></img></p>
+<p>I should also mention that Chrome-based browsers have no such issue, and I am happily downloading all the images I want using Brave. I shouldn't have to worry about whether or not the image I'm seeing on a webpage is protected by a login cookie every single time I want to download one. That was my day-to-day experience using Fenix, and if I were to switch back to Fenix today, that would once again become my day-to-day experience.</p>
+<p>And this omits many other issues that I and others have suffered through over the course of the last two years, including—but not limited to—<a href="https://github.com/mozilla-mobile/fenix/issues/10986">closed then restored tabs being moved all the way to the top of the tabs list</a> instead of their original position, <a href="https://github.com/mozilla-mobile/fenix/issues/12731">backgrounded tabs being cleared from memory</a> less than a minute after switching away from them, <a href="https://github.com/mozilla-mobile/fenix/issues/17525">the last visited page not being restored</a> when restarting the app (which was closed as &quot;won't fix&quot; despite still being an issue nearly every time I started the app again), <a href="https://github.com/mozilla-mobile/fenix/issues/8252">video embeds being cut off in fullscreen mode</a>, <a href="https://github.com/mozilla-mobile/fenix/issues/12663">search engine queries ignoring text that looks like a URL</a>, <a href="https://github.com/mozilla-mobile/fenix/issues/16583">Bitwarden</a>, <a href="https://github.com/mozilla-mobile/fenix/issues/14633">Keepass</a> and <a href="https://github.com/mozilla-mobile/fenix/issues/19981">other autofill providers</a> not triggering on form inputs...</p>
+<p>Once again, Chrome for Android has <em>none</em> of these issues.</p>
+<p>By the way, if all of these issues ultimately cause you to become fed up with Fenix and you want to switch to another browser, but still want to save your list of tabs, you might be able to use the &quot;share all tabs&quot; feature—unless you're like me and have a large number of tabs open, because <em>of course</em> there's <a href="https://github.com/mozilla-mobile/fenix/issues/20683">another bug</a> that prevents you from exporting a large number of tabs, and that bug has been left unresolved for almost two months.</p>
+<p>Even with some of these bugs having been fixed, it seems that more of them keep coming up in their place, and others are left unfixed for months at a time. Added to the terrible yet <em>intentional</em> UI redesigns that will be discussed shortly, I eventually found that the only two reasons I continued to use Fenix as a daily driver were the WebExtension support and the principle of standing with Mozilla, and those positives were by then far outweighed by the lost value of having a stable and reliable web browser. At the point I had decided to give up on Fenix, I couldn't see the cycle ending anytime soon.</p>
+<h2 id="the-redesigns">The Redesigns</h2>
+<p>And the reason that I have lost hope in seeing those issues being resolved in a timely manner is the significant amount of churn and effort spent on less important things like the constant, unnecessary redesigns of the user interface.</p>
+<p>When talking about the Nightly version of Fenix, the one thing that cannot escape mention is just how unstable the user interface is. It feels like the development team spends a lot of time heading in the wrong direction by constantly pushing out poorly thought-out redesigns of crucial UI workflows. Given that Fenix Nightly is explicitly labeled as an unstable release for developers and testers, the numerous UI changes might be tolerable—if those changes at least resulted in a better user experience, which has not been the case in recent months.</p>
+<img src="/content/1/tabs.png">
+<p>Since its release in 2019, Fenix has undergone no less than <em>four</em> redesigns of its tab switcher. Initially, the tab list was integrated into the new tab page in a fullscreen view. Then it was redesigned into a drawer which only partially covered the screen, which received a large amount of <a href="https://github.com/mozilla-mobile/fenix/issues/11833">negative criticism</a> for being unintutive—a sentiment that I agreed with, having experienced it myself. Then the tab list inside the drawer was replaced with a grid view similar to Chrome's, without doing away with the drawer itself. And <em>then</em>, the grid was changed to automatically move &quot;inactive tabs&quot; into a drop-down menu at the top of the tabs list.</p>
+<p>The inactive tabs feature was met with <a href="https://github.com/mozilla-mobile/fenix/issues/20684">significant criticism</a>, because it turned out that if you had a large number of open tabs, it was now impossible to reach the list of &quot;active&quot; tabs without spending several seconds or <em>minutes</em> scrolling past the list of inactive tabs, <em>every single time</em> you opened the tab list. This was because of the inexplicable design decision of putting the inactive tabs drawer at the top of the menu and not offering a way to instantly jump to the bottom of the list of tabs. More fundamentally, having one's tabs automatically moved from one part of the tabs list to another using a criteria that is not obvious is entirely unhelpful, since you have to keep hunting in the list for the tabs that do get moved if you <em>didn't</em> consider them to be inactive like the algorithm did. And the inactive tabs drawer <a href="https://github.com/mozilla-mobile/fenix/issues/20803">doesn't have feature parity with the existing tabs UI</a>, either.</p>
+<p>I remember having to temporarily give up on using Fenix the day this feature was released, because the amount of effort it now took to so much as switch between tabs was no longer worth it to me. And a month after this feature was implemented, there is still no way to disable it.</p>
+<p>How did this inactive tabs feature of no discernable value manage to pass user experience testing before being merged? And <em>why</em> did the development team think this feature would be useful in the first place, to the point that it merited further experimentation? Personally, I don't find it useful at all, I wouldn't have found it a useful idea <em>on paper</em>, and I have no issues with using a simple grid of tab previews like Chrome's, with no distinction between active and inactive tabs—as in, the way it was before the drawer was added.</p>
+<p>And just as I was beginning to write this post, within ten seconds of casually browsing the issue tracker I'd discovered that the tab switcher had been redesigned <em>yet again</em> only three days prior, via <a href="https://github.com/mozilla-mobile/fenix/issues/21360">yet another issue</a> complaining about the awful UX that resulted. This time the grid had been split up into multiple sections that are supposed have some kind of logical correlation based on search history, or <em>something</em>. </p>
+<img src="/content/1/tabs2.png">
+<p>But even if this <em>were</em> a useful feature—which it isn't, in my opinion—it hasn't even been finished yet. Not in the sense of being ready for user testing, but in the sense of being severely broken. Despite the &quot;search&quot; tabs having an X to close them and appearing nearly identical to normal tabs, the &quot;swipe to close&quot; gesture that you can perform on normal tabs doesn't work on these new tabs. The horizontal layout occupied by the search tabs means there is now significantly more wasted space where more tabs could have been displayed in the past. The inability to reorder tabs only compounds the issues with organization this change introduces. And on top of that, the inactive tabs drawer is still there, with all the same issues as before. Worse, closing tabs in the inactive tabs drawer can randomly move other tabs from the inactive group into a new &quot;search&quot; group without any further interaction, which is both counterintuitive and completely unhelpful.</p>
+<p>If this design is here to stay, which would be a <em>highly undesirable situation</em> due to the wasted space, all of the aforementioned bugs would have to be fixed. And if not, the UI would have to undergo even more changes. Both of these options would cost more time and development resources that could have been spent elsewhere.</p>
+<p>In my opinion, the tab switcher didn't need to change anymore to begin with; the previous grid-based view that copied Chrome's layout worked perfectly fine. Judging from the complaints in <a href="https://github.com/mozilla-mobile/fenix/issues/21360">the corresponding issue</a> criticizing this latest redesign, I would say that I'm not alone in holding that opinion. It's telling that both the inactive tabs and search tab grouping changes received feature requests for the ability to <em>disable them</em> shortly after being merged into Nightly.</p>
+<p>When your design team is creating issues with titles like <em><a href="https://github.com/mozilla-mobile/fenix/issues/11833">As a user, I find the tab experience to be horrible and frustrating</a></em>, you know you have a problem on your hands. But when one of the most important features of a web browser is <em>still</em> undergoing significant changes over a year later, there is likely an even bigger issue at play. How many more months or years of development work on Fenix will it take for there to no longer be a need for radical experimentation with the UI, after settling on something that at least <em>works</em> for most users? This new iteration of the UI does <em>not</em> work, in the sense of being intuitive and reliable, unlike the previous grid-based version that mimicked Chrome's tab viewer.</p>
+<p>In fact, if Fenix's UI was nothing more than a carbon copy of Chrome's with full support for pre-Manifest v3 WebExtensions, that alone would be enough of a reason for me to never use Chrome again. </p>
+<p>In my experience, the frustration stemming from this is not due to the fact that there are constant UX changes because Nightly is an experimental platform—that is to be expected. It's frustrating because people are unable to figure out why the team thought these changes were a good idea in the first place. No amount of experimentation or user testing can salvage a feature that nobody finds useful. And most importantly, the frustration is amplified because this was a use of development resources that could have instead been spent on fixing the numerous aforementioned bugs and other issues that people like me <em>actually care about</em>—issues that are still present in both Nightly <em>and</em> stable.</p>
+<p>Also, it isn't currently possible for average contributors to get a clearer picture of why the team felt these new features were worthy of implementation. As <a href="https://github.com/mozilla-mobile/fenix/issues/21360#issuecomment-922405802">mentioned</a> in one of the issue threads, there is a Jira instance that apparently holds details about the planning for UX-related changes, but it is restricted to Mozilla employees only. In another thread, one of the mobile team members said that user research is <a href="https://github.com/mozilla-mobile/fenix/issues/12065#issuecomment-739444613">&quot;very tricky to discuss openly&quot;</a>, for unexplained reasons.</p>
+<p>But <em>why</em> does user feedback for an open-source project like Fenix have to be handled behind closed doors? Clearly there is some kind of disconnect between the users and the development team, because there have been <em>so many redesigns</em> that have consistently attracted a significant amount of negative criticism over the past few years. Even if there is a justifiable reason for keeping the discussions about user research closed to Mozilla employees, I would argue that it's still important to discuss upcoming new features or redesigns with users <em>before</em> they've been greenlit for implementation—the same users who have felt confused, frustrated or betrayed every time a new, unwanted redesign or change gets pushed out.</p>
+<p>I believe that this problem could be solved if the development team had a better idea of what users want to see improved. The notion of experimentation itself isn't really the problem; the problem is that the experimentation is both poorly thought-out and prioritized over addressing all of the bugs and missing features that I discussed earlier. Users like me would prefer Fenix's existing issues that are actively causing pain to be sorted out first, before a lot of precious time is spent tinkering with new UI redesigns that are ultimately hit-or-miss.</p>
+<hr />
+<p>I understand that by using the Nightly version of Fenix, you will be naturally exposed to more bugs and issues than if you were to use its stable version. But many of the bugs and missing features that are a part of Nightly have also been a part of stable for months, and even over a year in some cases. And given that I needed to use Nightly in order to install the WebExtensions I wanted to use, I found myself with little choice. Between the missing features in stable and the instability of Nightly, I ultimately couldn't find a way of making Fenix work for me as my main mobile web browser.</p>
+<p>And the difficulty of using Fenix as a daily driver isn't the only problem that's preventing it from becoming a viable web browser sometime in the future—what about the engineering processes that prioritize working on unhelpful UI rewrites over addressing the longstanding bugs and requests for missing features? Why do people in the community feel like they're being ignored after repeatedly bringing up the issues they consider to be the most important, like the inability to install arbitrary WebExtensions in stable that would remove many people's need to suffer through using Nightly? And why does it feel like there is a disconnect between what the mobile team and Nightly's users consider to be useful features?</p>
+<p>Perhaps this situation wouldn't be that big of a deal if Fenix weren't an important piece of software. Unfortunately, in the modern world, almost all of us need to rely on browsing the web to some extent, and smartphones have become near-universal. Some people are now unable to <em>survive</em> without browsing the web or owning a smartphone. In that sense, mobile web browsing may soon become inextricably tied to one's ability to stay alive. Setting aside the implications of such a thought, that means that a mobile app for browsing the web is a <em>critical</em> piece of software to maintain in 2021, and right now, Fenix is <em>not</em> being maintained like a critical piece of software.</p>
+<p>The idea that a single poorly designed app can drive so many people to despair at once is perhaps a testament to our gradually increasing reliance on web browsers to work correctly. The number of exasperated users commenting in so many of the the issue threads about how their favorite website doesn't function properly in Fenix or how aggravating it is to put up with the browser's quirks only emphasizes the fact that this is a highly important piece of software that we all wish we could rely on for our daily activities.</p>
+<p>Mozilla, you have lost me as a user of Fenix, even though I <em>still</em> side with you on the issues of privacy and avoiding a browser monoculture to this day. I still happily use Firefox on desktop, and will continue to do so until there is nobody left to keep supporting it.</p>
+<p>But, please—you have to <em>listen</em> to us if you want to prevent your users on Android from getting fed up and moving away to Chrome-based browsers after fighting with Fenix at every turn. The number of complaints across the issue tracker and the lack of substantive followup on many of those complaints should be ample evidence that these frustrated users exist and are likely about to leave Fenix behind in droves, if they haven't already. <em>I am one of those frustrated users who has given up,</em> and I'm trying to help in some way by bringing these issues to light so a discussion about them can take place. </p>
+<p>My suggestions would be the following: if the mobile team is understaffed, then stop putting your resources into projects like Relay that have minimal importance in comparison to literally the only piece of software that is preventing web browsing in the Android ecosystem from devolving into a Blink monoculture. If you need more resources, then let us donate money directly to the development teams responsible for developing and maintaining Firefox. Yes, I'm having to complain that <em>I can't give your development teams my own hard-earned money.</em></p>
+<p>At the very least, I implore you to bring both the mobile team and the community together, acknowledge that something needs to change, and figure out some way of shaping Fenix into a browser worth returning to after experiencing the stability and reliability of Chrome. There is no Mozilla without Firefox, and I am witnessing the trust in Firefox on Android crumble away before my very eyes. In a few years, there may be nobody left who is willing to choose Fenix with all of its bugs, UX issues and missing features over a Chrome-based alternative, and control of Android's entire web browser ecosystem could soon be completely lost to Google.</p>
+<p>Mozilla, please show us that you care and do <em>something</em> about Firefox for Android's current direction. The future of the mobile web depends on it.</p>
+
+  </div>
+
+	
+
+  <div class="pagination">
+  	
+		<a href="#" class="top">Top</a>
+		
+  </div>
+
+  </main>
+
+  
+  <footer>
+    <span>~ <time datetime="2021-09-22T13:39:20.678421600-07:00">2021</time> nonbirithm. </span>
+  </footer>
+  
+</body>
+</html>
